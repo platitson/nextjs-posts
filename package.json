@@ -6,14 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mock": "npx json-server -w db.json -p 4200 -d 450",
+    "serve": "concurrently \"npm run dev\" \"npm run mock\""
   },
   "dependencies": {
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
   }
