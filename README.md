@@ -1,5 +1,5 @@
-Get a [Fake Rest API](https://github.com/typicode/json-server):
-npm install -g json-server
+[Fake Rest API](https://github.com/typicode/json-server):
+[Concurrently](https://www.npmjs.com/package/concurrently?activeTab=readme)
 
-Run the project using [Concurrently](https://www.npmjs.com/package/concurrently?activeTab=readme)
+Run the project:
 npm run serve
